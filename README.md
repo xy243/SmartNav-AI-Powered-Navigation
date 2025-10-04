@@ -28,9 +28,9 @@ Sends emergency notifications to guardians, adding a safety layer.
 
 Installation
 
-Clone the repository:
+>Clone the repository:
 
-git clone https://github.com/yourusername/SmartNav.git
+git clone https://github.com/xy243/SmartNav-AI-Powered-Navigation.git
 cd SmartNav
 
 
@@ -50,15 +50,15 @@ Update SENDER_EMAIL, SENDER_PASSWORD, and RECEIVER_EMAIL in smart_nav.py for eme
 
 Mode Switching:
 
-Press I for indoor mode
+-Press I for indoor mode
 
-Press O for outdoor mode
+-Press O for outdoor mode
 
-Press E to send an emergency alert
+-Press E to send an emergency alert
 
-Press Q to quit the application
+-Press Q to quit the application
 
-Usage
+Usage:
 
 Run the main script:
 
@@ -75,7 +75,7 @@ Indoor Mode
 
 Announces only the names of indoor objects detected.
 
-Helps visually impaired users identify objects around them and avoid obstacles.
+>Helps visually impaired users identify objects around them and avoid obstacles.
 
 Outdoor Mode
 
@@ -83,23 +83,23 @@ Announces object names, positions, and distances.
 
 Guides users safely while walking outdoors.
 
-Dependencies
+>Dependencies
 
 All dependencies are listed in requirements.txt. Ensure you have Python 3.8+ installed.
 
 Example dependencies included:
 
-ultralytics (YOLOv8)
+-ultralytics (YOLOv8)
 
-opencv-python
+-opencv-python
 
-pyttsx3 (Text-to-speech)
+-pyttsx3 (Text-to-speech)
 
-SpeechRecognition (Voice input)
+-SpeechRecognition (Voice input)
 
-requests (API calls for geocoding and routing)
+-requests (API calls for geocoding and routing)
 
-Install them with:
+>Install them with:
 
 pip install -r requirements.txt
 
@@ -111,7 +111,7 @@ SmartNav/
 ├─ requirements.txt    # Python dependencies
 └─ README.md
 
-Notes for Users
+>Notes for Users
 
 Ensure a stable internet connection for geocoding and navigation features.
 
